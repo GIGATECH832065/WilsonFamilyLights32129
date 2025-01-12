@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE WFL Opening</title>
+    <style>
+        body {
+            background-color: black;
+            color: orange;
+            font-family: Georgia, serif;
+            text-align: center;
+        }
+        a {
+            color: orange;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img, video {
+            width: 33%;
+            display: block;
+            margin: 0 auto;
+        }
+        .spacer {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>THE WFL Opening</h1>
+    <p>Address: 1121 West Willow Run Drive, Port Orange, Florida 32129</p>
+    <p>
+        Visit our Facebook page: 
+        <a href="https://www.facebook.com/WilsonFamilyHolidayLights/" target="_blank">Wilson Family Holiday Lights</a>
+    </p>
+    <img src="ME.jpg" alt="Wilson Family Holiday Lights">
+    <!-- Spacer to add space between image and video -->
+    <div class="spacer"></div>
+    <h2>WFL Custom Opening Video</h2>
+    <video controls>
+        <source src="WFL.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
